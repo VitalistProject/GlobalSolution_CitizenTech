@@ -101,21 +101,21 @@ A proposta considera:
 
 A arquitetura tecnológica proposta para o projeto contempla as seguintes tecnologias:
 
-| Camada | Tecnologias |
-|---|---|
-| Frontend | React, TypeScript e Vite |
-| Interface | Material UI |
-| Visualização de dados | Apache ECharts |
-| Backend / API | Python e FastAPI |
-| Banco de dados | PostgreSQL |
-| Comunicação IoT | MQTT |
+| Camada                  | Tecnologias                                  |
+| ----------------------- | -------------------------------------------- |
+| Frontend                | React, TypeScript e Vite                     |
+| Interface               | Material UI                                  |
+| Visualização de dados   | Apache ECharts                               |
+| Backend / API           | Python e FastAPI                             |
+| Banco de dados          | PostgreSQL                                   |
+| Comunicação IoT         | MQTT                                         |
 | Inteligência Artificial | NumPy, SciPy, pandas, scikit-learn e PyTorch |
-| Hardware | ESP32 |
-| Infraestrutura | Docker, GitHub e GitHub Actions |
+| Hardware                | ESP32                                        |
+| Infraestrutura          | Docker, GitHub e GitHub Actions              |
 
 A plataforma foi concebida para oferecer uma interface responsiva, com possibilidade de acesso por computadores, tablets e dispositivos móveis.
 
-*Observação: a lista representa a stack tecnológica prevista no projeto e não necessariamente todas as tecnologias já integradas ao protótipo.*
+_Observação: a lista representa a stack tecnológica prevista no projeto e não necessariamente todas as tecnologias já integradas ao protótipo._
 
 ## Público-alvo
 
@@ -181,4 +181,4 @@ Projeto desenvolvido por:
 
 ---
 
-*Projeto acadêmico de inovação tecnológica. O S.I.A.F. é uma proposta de apoio à tomada de decisão e não substitui a avaliação técnica especializada ou a verificação das condições reais de cultivo.*
+_Projeto acadêmico de inovação tecnológica. O S.I.A.F. é uma proposta de apoio à tomada de decisão e não substitui a avaliação técnica especializada ou a verificação das condições reais de cultivo._

@@ -216,7 +216,7 @@ export const initialTimeline: TimelineEvent[] = [
     description:
       "Variação observada em relação à linha de base individual. Hipótese requer verificação humana.",
     date: "17 nov. 2026 · 10:42",
-    person: "Intelligence Engine · simulação",
+    person: "Motor de análise · simulação",
   },
   {
     id: "H-2",
@@ -264,7 +264,20 @@ export const measurements: Measurement[] = plants.flatMap((plant, p) =>
       value:
         v.key === "Sinal eletrofisiológico"
           ? Math.sin(k / 2.8 + p) * 0.55 + Math.cos(k / 5) * 0.2
-          : Math.round((v.base + Math.sin(k / 3 + p) * (j === 0 ? 8 : j === 1 ? 1.8 : j === 3 ? 2200 : j === 4 ? 0.35 : 7)) * 10,) / 10,
+          : Math.round(
+              (v.base +
+                Math.sin(k / 3 + p) *
+                  (j === 0
+                    ? 8
+                    : j === 1
+                      ? 1.8
+                      : j === 3
+                        ? 2200
+                        : j === 4
+                          ? 0.35
+                          : 7)) *
+                10,
+            ) / 10,
       unit: v.unit,
       quality: plant.quality,
       origin: "sensor demonstrativo" as const,
