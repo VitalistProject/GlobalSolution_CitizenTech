@@ -14,42 +14,28 @@ Diferentemente dos métodos tradicionais, que se concentram principalmente nas c
 
 ### Pré-requisitos
 
-Antes de iniciar, certifique-se de ter instalado:
-
 - [Node.js](https://nodejs.org/)
-- npm (geralmente instalado junto com o Node.js)
+- npm
 - Git
 
-### 1. Clone o repositório
-
-```bash
-git clone URL_DO_REPOSITORIO
-```
-
-### 2. Acesse a pasta do projeto
-
-```bash
-cd NOME_DO_PROJETO
-```
-
-### 3. Instale as dependências
+### 1. Instale as dependências
 
 ```bash
 npm install
 ```
 
-### 4. Execute o projeto
+### 2. Execute o projeto
 
 ```bash
 npm run dev
 ```
 
-### 5. Acesse a aplicação
+### 3. Acesse a aplicação
 
-Após iniciar o servidor de desenvolvimento, acesse o endereço exibido no terminal. Em projetos Vite, normalmente:
+Após iniciar o servidor de desenvolvimento, acesse o endereço exibido no terminal:
 
 ```text
-http://localhost:5173
+http://localhost:[porta citada no terminal]
 ```
 
 Para encerrar a execução, pressione `Ctrl + C` no terminal.
