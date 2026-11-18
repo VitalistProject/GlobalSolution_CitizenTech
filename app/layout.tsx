@@ -3,11 +3,11 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'S.I.A.F. | Inteligência fitológica',
+  title: 'S.I.A.F. — Inteligência fitológica',
   description: 'Acompanhe a resposta fisiológica, os sinais e as condições ambientais das suas plantas.',
   applicationName: 'S.I.A.F.',
   generator: 'v0.app',
-  icons: { icon: '/icon.svg', apple: '/apple-icon.png' },
+  icons: { icon: '/icon.png', apple: '/apple-icon.png' },
 }
 
 export const viewport: Viewport = { colorScheme: 'light', themeColor: '#f5f8f5', width: 'device-width', initialScale: 1 }
