@@ -6,7 +6,6 @@ export const metadata: Metadata = {
   title: 'S.I.A.F. — Inteligência fitológica',
   description: 'Acompanhe a resposta fisiológica, os sinais e as condições ambientais das suas plantas.',
   applicationName: 'S.I.A.F.',
-  generator: 'v0.app',
   icons: { icon: '/icon.png', apple: '/apple-icon.png' },
 }
 
